@@ -1,0 +1,5 @@
+node_modules/
+.env
+
+# Student-owned activity data (never commit this file)
+data/student-activities.json
