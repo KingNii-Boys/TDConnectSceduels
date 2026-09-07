@@ -1,0 +1,98 @@
+{
+  "settings": {
+    "cycleRule": "oddDay1EvenDay2",
+    "defaultScheduleId": "regular",
+    "defaultGrade": "9",
+    "lunch": {
+      "start": "11:40",
+      "end": "12:40",
+      "label": "Lunch"
+    },
+    "lateStart": {
+      "enabled": true,
+      "scheduleId": "late-start",
+      "pattern": "last2WednesdaysOfMonth"
+    }
+  },
+  "announcements": [
+    {
+      "id": "welcome",
+      "title": "Welcome",
+      "body": "School announcements will appear here.",
+      "startDate": "",
+      "endDate": "",
+      "active": true
+    }
+  ],
+  "schedules": [
+    {
+      "id": "regular",
+      "name": "Regular Day",
+      "grade": "all",
+      "eventStart": "",
+      "eventEnd": "",
+      "periods": [
+        {
+          "period": "1",
+          "start": "09:00",
+          "end": "10:20"
+        },
+        {
+          "period": "2",
+          "start": "10:25",
+          "end": "11:40"
+        },
+        {
+          "period": "3",
+          "start": "12:40",
+          "end": "13:55"
+        },
+        {
+          "period": "4",
+          "start": "14:00",
+          "end": "15:15"
+        }
+      ],
+      "lunch": {
+        "start": "11:40",
+        "end": "12:40",
+        "label": "Lunch"
+      }
+    },
+    {
+      "id": "late-start",
+      "name": "Late Start \u2014 Last 2 Wednesdays",
+      "grade": "all",
+      "eventStart": "",
+      "eventEnd": "",
+      "periods": [
+        {
+          "period": "1",
+          "start": "10:00",
+          "end": "11:20"
+        },
+        {
+          "period": "2",
+          "start": "11:25",
+          "end": "12:40"
+        },
+        {
+          "period": "3",
+          "start": "13:40",
+          "end": "14:55"
+        },
+        {
+          "period": "4",
+          "start": "15:00",
+          "end": "16:15"
+        }
+      ],
+      "lunch": {
+        "start": "12:40",
+        "end": "13:40",
+        "label": "Lunch"
+      }
+    }
+  ],
+  "events": []
+}
